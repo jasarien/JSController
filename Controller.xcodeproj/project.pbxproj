@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1A162D3617075DF600889F2D /* button-pressed.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A162D3217075DF600889F2D /* button-pressed.png */; };
+		1A162D3717075DF600889F2D /* button-pressed@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A162D3317075DF600889F2D /* button-pressed@2x.png */; };
+		1A162D3817075DF600889F2D /* button.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A162D3417075DF600889F2D /* button.png */; };
+		1A162D3917075DF600889F2D /* button@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A162D3517075DF600889F2D /* button@2x.png */; };
 		1A1DA8691704A5BC00BDA8F9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A1DA8681704A5BC00BDA8F9 /* UIKit.framework */; };
 		1A1DA86B1704A5BC00BDA8F9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A1DA86A1704A5BC00BDA8F9 /* Foundation.framework */; };
 		1A1DA86D1704A5BC00BDA8F9 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A1DA86C1704A5BC00BDA8F9 /* CoreGraphics.framework */; };
@@ -18,9 +22,35 @@
 		1A1DA87F1704A5BD00BDA8F9 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A1DA87E1704A5BD00BDA8F9 /* Default-568h@2x.png */; };
 		1A1DA8821704A5BD00BDA8F9 /* JSViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A1DA8811704A5BD00BDA8F9 /* JSViewController.m */; };
 		1A1DA8851704A5BD00BDA8F9 /* JSViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1A1DA8831704A5BD00BDA8F9 /* JSViewController.xib */; };
+		1A1DA88D1704A82D00BDA8F9 /* JSDPad.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A1DA88C1704A82D00BDA8F9 /* JSDPad.m */; };
+		1A4FA0C21706290D00B9630A /* dPad-Down.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A4FA0B01706290D00B9630A /* dPad-Down.png */; };
+		1A4FA0C31706290D00B9630A /* dPad-Down@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A4FA0B11706290D00B9630A /* dPad-Down@2x.png */; };
+		1A4FA0C41706290D00B9630A /* dPad-DownLeft.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A4FA0B21706290D00B9630A /* dPad-DownLeft.png */; };
+		1A4FA0C51706290D00B9630A /* dPad-DownLeft@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A4FA0B31706290D00B9630A /* dPad-DownLeft@2x.png */; };
+		1A4FA0C61706290D00B9630A /* dPad-DownRight.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A4FA0B41706290D00B9630A /* dPad-DownRight.png */; };
+		1A4FA0C71706290D00B9630A /* dPad-DownRight@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A4FA0B51706290D00B9630A /* dPad-DownRight@2x.png */; };
+		1A4FA0C81706290D00B9630A /* dPad-Left.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A4FA0B61706290D00B9630A /* dPad-Left.png */; };
+		1A4FA0C91706290D00B9630A /* dPad-Left@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A4FA0B71706290D00B9630A /* dPad-Left@2x.png */; };
+		1A4FA0CA1706290D00B9630A /* dPad-None.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A4FA0B81706290D00B9630A /* dPad-None.png */; };
+		1A4FA0CB1706290D00B9630A /* dPad-None@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A4FA0B91706290D00B9630A /* dPad-None@2x.png */; };
+		1A4FA0CC1706290D00B9630A /* dPad-Right.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A4FA0BA1706290D00B9630A /* dPad-Right.png */; };
+		1A4FA0CD1706290D00B9630A /* dPad-Right@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A4FA0BB1706290D00B9630A /* dPad-Right@2x.png */; };
+		1A4FA0D01706290D00B9630A /* dPad-UpLeft.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A4FA0BE1706290D00B9630A /* dPad-UpLeft.png */; };
+		1A4FA0D11706290D00B9630A /* dPad-UpLeft@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A4FA0BF1706290D00B9630A /* dPad-UpLeft@2x.png */; };
+		1A4FA0D21706290D00B9630A /* dPad-UpRight.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A4FA0C01706290D00B9630A /* dPad-UpRight.png */; };
+		1A4FA0D31706290D00B9630A /* dPad-UpRight@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A4FA0C11706290D00B9630A /* dPad-UpRight@2x.png */; };
+		1A4FA0D617062AD300B9630A /* dPad-Up.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A4FA0D417062AD300B9630A /* dPad-Up.png */; };
+		1A4FA0D717062AD300B9630A /* dPad-Up@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A4FA0D517062AD300B9630A /* dPad-Up@2x.png */; };
+		1A4FA0DB1706303500B9630A /* JSButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A4FA0DA1706303500B9630A /* JSButton.m */; };
+		1AB6825A170DD4E500956173 /* JSControlPad.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AB68259170DD4E500956173 /* JSControlPad.m */; };
+		1AB6825D170DDD0D00956173 /* Gameboy-landscape.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1AB6825C170DDD0D00956173 /* Gameboy-landscape.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1A162D3217075DF600889F2D /* button-pressed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "button-pressed.png"; sourceTree = "<group>"; };
+		1A162D3317075DF600889F2D /* button-pressed@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "button-pressed@2x.png"; sourceTree = "<group>"; };
+		1A162D3417075DF600889F2D /* button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button.png; sourceTree = "<group>"; };
+		1A162D3517075DF600889F2D /* button@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "button@2x.png"; sourceTree = "<group>"; };
 		1A1DA8651704A5BC00BDA8F9 /* Controller.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Controller.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1A1DA8681704A5BC00BDA8F9 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		1A1DA86A1704A5BC00BDA8F9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -37,6 +67,31 @@
 		1A1DA8801704A5BD00BDA8F9 /* JSViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JSViewController.h; sourceTree = "<group>"; };
 		1A1DA8811704A5BD00BDA8F9 /* JSViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JSViewController.m; sourceTree = "<group>"; };
 		1A1DA8841704A5BD00BDA8F9 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/JSViewController.xib; sourceTree = "<group>"; };
+		1A1DA88B1704A82D00BDA8F9 /* JSDPad.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSDPad.h; sourceTree = "<group>"; };
+		1A1DA88C1704A82D00BDA8F9 /* JSDPad.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSDPad.m; sourceTree = "<group>"; };
+		1A4FA0B01706290D00B9630A /* dPad-Down.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "dPad-Down.png"; sourceTree = "<group>"; };
+		1A4FA0B11706290D00B9630A /* dPad-Down@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "dPad-Down@2x.png"; sourceTree = "<group>"; };
+		1A4FA0B21706290D00B9630A /* dPad-DownLeft.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "dPad-DownLeft.png"; sourceTree = "<group>"; };
+		1A4FA0B31706290D00B9630A /* dPad-DownLeft@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "dPad-DownLeft@2x.png"; sourceTree = "<group>"; };
+		1A4FA0B41706290D00B9630A /* dPad-DownRight.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "dPad-DownRight.png"; sourceTree = "<group>"; };
+		1A4FA0B51706290D00B9630A /* dPad-DownRight@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "dPad-DownRight@2x.png"; sourceTree = "<group>"; };
+		1A4FA0B61706290D00B9630A /* dPad-Left.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "dPad-Left.png"; sourceTree = "<group>"; };
+		1A4FA0B71706290D00B9630A /* dPad-Left@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "dPad-Left@2x.png"; sourceTree = "<group>"; };
+		1A4FA0B81706290D00B9630A /* dPad-None.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "dPad-None.png"; sourceTree = "<group>"; };
+		1A4FA0B91706290D00B9630A /* dPad-None@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "dPad-None@2x.png"; sourceTree = "<group>"; };
+		1A4FA0BA1706290D00B9630A /* dPad-Right.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "dPad-Right.png"; sourceTree = "<group>"; };
+		1A4FA0BB1706290D00B9630A /* dPad-Right@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "dPad-Right@2x.png"; sourceTree = "<group>"; };
+		1A4FA0BE1706290D00B9630A /* dPad-UpLeft.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "dPad-UpLeft.png"; sourceTree = "<group>"; };
+		1A4FA0BF1706290D00B9630A /* dPad-UpLeft@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "dPad-UpLeft@2x.png"; sourceTree = "<group>"; };
+		1A4FA0C01706290D00B9630A /* dPad-UpRight.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "dPad-UpRight.png"; sourceTree = "<group>"; };
+		1A4FA0C11706290D00B9630A /* dPad-UpRight@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "dPad-UpRight@2x.png"; sourceTree = "<group>"; };
+		1A4FA0D417062AD300B9630A /* dPad-Up.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "dPad-Up.png"; sourceTree = "<group>"; };
+		1A4FA0D517062AD300B9630A /* dPad-Up@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "dPad-Up@2x.png"; sourceTree = "<group>"; };
+		1A4FA0D91706303500B9630A /* JSButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSButton.h; sourceTree = "<group>"; };
+		1A4FA0DA1706303500B9630A /* JSButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSButton.m; sourceTree = "<group>"; };
+		1AB68258170DD4E500956173 /* JSControlPad.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSControlPad.h; sourceTree = "<group>"; };
+		1AB68259170DD4E500956173 /* JSControlPad.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSControlPad.m; sourceTree = "<group>"; };
+		1AB6825C170DDD0D00956173 /* Gameboy-landscape.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Gameboy-landscape.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +143,14 @@
 				1A1DA8801704A5BD00BDA8F9 /* JSViewController.h */,
 				1A1DA8811704A5BD00BDA8F9 /* JSViewController.m */,
 				1A1DA8831704A5BD00BDA8F9 /* JSViewController.xib */,
+				1A1DA88B1704A82D00BDA8F9 /* JSDPad.h */,
+				1A1DA88C1704A82D00BDA8F9 /* JSDPad.m */,
+				1A4FA0D91706303500B9630A /* JSButton.h */,
+				1A4FA0DA1706303500B9630A /* JSButton.m */,
+				1AB68258170DD4E500956173 /* JSControlPad.h */,
+				1AB68259170DD4E500956173 /* JSControlPad.m */,
+				1AB6825B170DDCE600956173 /* Layouts */,
+				1A4FA0AB170623C700B9630A /* Resources */,
 				1A1DA86F1704A5BC00BDA8F9 /* Supporting Files */,
 			);
 			path = Controller;
@@ -105,6 +168,43 @@
 				1A1DA87E1704A5BD00BDA8F9 /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1A4FA0AB170623C700B9630A /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				1A4FA0B01706290D00B9630A /* dPad-Down.png */,
+				1A4FA0B11706290D00B9630A /* dPad-Down@2x.png */,
+				1A4FA0B21706290D00B9630A /* dPad-DownLeft.png */,
+				1A4FA0B31706290D00B9630A /* dPad-DownLeft@2x.png */,
+				1A4FA0B41706290D00B9630A /* dPad-DownRight.png */,
+				1A4FA0B51706290D00B9630A /* dPad-DownRight@2x.png */,
+				1A4FA0B61706290D00B9630A /* dPad-Left.png */,
+				1A4FA0B71706290D00B9630A /* dPad-Left@2x.png */,
+				1A4FA0B81706290D00B9630A /* dPad-None.png */,
+				1A4FA0B91706290D00B9630A /* dPad-None@2x.png */,
+				1A4FA0BA1706290D00B9630A /* dPad-Right.png */,
+				1A4FA0BB1706290D00B9630A /* dPad-Right@2x.png */,
+				1A4FA0D417062AD300B9630A /* dPad-Up.png */,
+				1A4FA0D517062AD300B9630A /* dPad-Up@2x.png */,
+				1A4FA0BE1706290D00B9630A /* dPad-UpLeft.png */,
+				1A4FA0BF1706290D00B9630A /* dPad-UpLeft@2x.png */,
+				1A4FA0C01706290D00B9630A /* dPad-UpRight.png */,
+				1A4FA0C11706290D00B9630A /* dPad-UpRight@2x.png */,
+				1A162D3217075DF600889F2D /* button-pressed.png */,
+				1A162D3317075DF600889F2D /* button-pressed@2x.png */,
+				1A162D3417075DF600889F2D /* button.png */,
+				1A162D3517075DF600889F2D /* button@2x.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		1AB6825B170DDCE600956173 /* Layouts */ = {
+			isa = PBXGroup;
+			children = (
+				1AB6825C170DDD0D00956173 /* Gameboy-landscape.plist */,
+			);
+			name = Layouts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -164,6 +264,29 @@
 				1A1DA87D1704A5BD00BDA8F9 /* Default@2x.png in Resources */,
 				1A1DA87F1704A5BD00BDA8F9 /* Default-568h@2x.png in Resources */,
 				1A1DA8851704A5BD00BDA8F9 /* JSViewController.xib in Resources */,
+				1A4FA0C21706290D00B9630A /* dPad-Down.png in Resources */,
+				1A4FA0C31706290D00B9630A /* dPad-Down@2x.png in Resources */,
+				1A4FA0C41706290D00B9630A /* dPad-DownLeft.png in Resources */,
+				1A4FA0C51706290D00B9630A /* dPad-DownLeft@2x.png in Resources */,
+				1A4FA0C61706290D00B9630A /* dPad-DownRight.png in Resources */,
+				1A4FA0C71706290D00B9630A /* dPad-DownRight@2x.png in Resources */,
+				1A4FA0C81706290D00B9630A /* dPad-Left.png in Resources */,
+				1A4FA0C91706290D00B9630A /* dPad-Left@2x.png in Resources */,
+				1A4FA0CA1706290D00B9630A /* dPad-None.png in Resources */,
+				1A4FA0CB1706290D00B9630A /* dPad-None@2x.png in Resources */,
+				1A4FA0CC1706290D00B9630A /* dPad-Right.png in Resources */,
+				1A4FA0CD1706290D00B9630A /* dPad-Right@2x.png in Resources */,
+				1A4FA0D01706290D00B9630A /* dPad-UpLeft.png in Resources */,
+				1A4FA0D11706290D00B9630A /* dPad-UpLeft@2x.png in Resources */,
+				1A4FA0D21706290D00B9630A /* dPad-UpRight.png in Resources */,
+				1A4FA0D31706290D00B9630A /* dPad-UpRight@2x.png in Resources */,
+				1A4FA0D617062AD300B9630A /* dPad-Up.png in Resources */,
+				1A4FA0D717062AD300B9630A /* dPad-Up@2x.png in Resources */,
+				1A162D3617075DF600889F2D /* button-pressed.png in Resources */,
+				1A162D3717075DF600889F2D /* button-pressed@2x.png in Resources */,
+				1A162D3817075DF600889F2D /* button.png in Resources */,
+				1A162D3917075DF600889F2D /* button@2x.png in Resources */,
+				1AB6825D170DDD0D00956173 /* Gameboy-landscape.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -177,6 +300,9 @@
 				1A1DA8751704A5BC00BDA8F9 /* main.m in Sources */,
 				1A1DA8791704A5BC00BDA8F9 /* JSAppDelegate.m in Sources */,
 				1A1DA8821704A5BD00BDA8F9 /* JSViewController.m in Sources */,
+				1A1DA88D1704A82D00BDA8F9 /* JSDPad.m in Sources */,
+				1A4FA0DB1706303500B9630A /* JSButton.m in Sources */,
+				1AB6825A170DD4E500956173 /* JSControlPad.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -264,7 +390,9 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Controller/Controller-Prefix.pch";
 				INFOPLIST_FILE = "Controller/Controller-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -275,7 +403,9 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Controller/Controller-Prefix.pch";
 				INFOPLIST_FILE = "Controller/Controller-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -299,6 +429,7 @@
 				1A1DA88A1704A5BD00BDA8F9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

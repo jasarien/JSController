@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>title</key>
+	<string>Gameboy Landscape</string>
+	<key>dpad</key>
+	<dict>
+		<key>frame</key>
+		<string>{{0,0},{150,150}}</string>
+	</dict>
+	<key>buttons</key>
+	<array>
+		<dict>
+			<key>title</key>
+			<string>A</string>
+			<key>frame</key>
+			<string>{{0,0},{60,60}}</string>
+		</dict>
+		<dict>
+			<key>title</key>
+			<string>B</string>
+			<key>frame</key>
+			<string>{{0,0},{60,60}}</string>
+		</dict>
+		<dict>
+			<key>title</key>
+			<string>Start</string>
+			<key>frame</key>
+			<string>{{0,0},{0,0}}</string>
+		</dict>
+		<dict>
+			<key>title</key>
+			<string>Select</string>
+			<key>frame</key>
+			<string>{{0,0},{0,0}}</string>
+		</dict>
+		<dict>
+			<key>title</key>
+			<string>Menu</string>
+			<key>frame</key>
+			<string>{{0,0},{0,0}}</string>
+		</dict>
+	</array>
+</dict>
+</plist>
