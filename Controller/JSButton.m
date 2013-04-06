@@ -44,6 +44,8 @@
 {
 	_backgroundImageView = [[UIImageView alloc] initWithImage:self.backgroundImage];
 	[_backgroundImageView setFrame:[self bounds]];
+	[_backgroundImageView setContentMode:UIViewContentModeCenter];
+	[_backgroundImageView setAutoresizingMask:UIViewAutoresizingFlexibleWidth | UIViewAutoresizingFlexibleHeight];
 	[self addSubview:_backgroundImageView];
 	
 	_titleLabel = [[UILabel alloc] init];
@@ -54,6 +56,7 @@
 	[_titleLabel setFont:[UIFont boldSystemFontOfSize:15]];
 	[_titleLabel setFrame:[self bounds]];
 	[_titleLabel setTextAlignment:NSTextAlignmentCenter];
+	[_titleLabel setAutoresizingMask:UIViewAutoresizingFlexibleWidth | UIViewAutoresizingFlexibleHeight];
 	[self addSubview: _titleLabel];
 	
 	[self addObserver:self
@@ -78,6 +81,26 @@
 {
 	[self removeObserver:self forKeyPath:@"pressed"];
 	self.delegate = nil;
+}
+
+- (void)setTitleEdgeInsets:(UIEdgeInsets)titleEdgeInsets
+{
+	_titleEdgeInsets = titleEdgeInsets;
+	[self setNeedsLayout];
+}
+
+- (void)layoutSubviews
+{
+	[super layoutSubviews];
+	[_backgroundImageView setFrame:[self bounds]];
+	[_titleLabel setFrame:[self bounds]];
+	
+	CGRect frame = [_titleLabel frame];
+	frame.origin.x += _titleEdgeInsets.left;
+	frame.origin.y += _titleEdgeInsets.top;
+	frame.size.width -= _titleEdgeInsets.right;
+	frame.size.height -= _titleEdgeInsets.bottom;
+	[_titleLabel setFrame:frame];
 }
 
 - (void)observeValueForKeyPath:(NSString *)keyPath ofObject:(id)object change:(NSDictionary *)change context:(void *)context
