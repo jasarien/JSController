@@ -10,7 +10,7 @@ A set of classes that make it easy to build a controller UI for games.
 - Can be used within Interface Builder
 	- Just drag a UIView onto your XIB and set it's class as JSDPad or JSButton. You can set it's delegate from within interface builder as well as it's position. (The D-Pad currently has a fixed size, but buttons can be custom sizes).
 
-This project uses ARC. If your project does not use ARC, you will need to add the compiler flag "-fobjc-arc" to each of the JSController classes used in your project. This can be done in the Compile Sources build phase in the project settings.
+This project uses ARC. If your project does not use ARC, you will need to add the compiler flag `-fobjc-arc` to each of the JSController classes used in your project. This can be done in the Compile Sources build phase in the project settings.
 
 (In progress)
 -------------
