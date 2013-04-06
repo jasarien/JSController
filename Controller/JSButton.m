@@ -80,6 +80,8 @@
 - (void)dealloc
 {
 	[self removeObserver:self forKeyPath:@"pressed"];
+	[self removeObserver:self forKeyPath:@"backgroundImage"];
+	[self removeObserver:self forKeyPath:@"backgroundImagePressed"];
 	self.delegate = nil;
 }
 
