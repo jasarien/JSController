@@ -51,14 +51,14 @@
 		1A162D3317075DF600889F2D /* button-pressed@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "button-pressed@2x.png"; sourceTree = "<group>"; };
 		1A162D3417075DF600889F2D /* button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button.png; sourceTree = "<group>"; };
 		1A162D3517075DF600889F2D /* button@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "button@2x.png"; sourceTree = "<group>"; };
-		1A1DA8651704A5BC00BDA8F9 /* Controller.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Controller.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A1DA8651704A5BC00BDA8F9 /* JSController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JSController.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1A1DA8681704A5BC00BDA8F9 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		1A1DA86A1704A5BC00BDA8F9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		1A1DA86C1704A5BC00BDA8F9 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		1A1DA8701704A5BC00BDA8F9 /* Controller-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Controller-Info.plist"; sourceTree = "<group>"; };
+		1A1DA8701704A5BC00BDA8F9 /* JSController-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "JSController-Info.plist"; sourceTree = "<group>"; };
 		1A1DA8721704A5BC00BDA8F9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		1A1DA8741704A5BC00BDA8F9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		1A1DA8761704A5BC00BDA8F9 /* Controller-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Controller-Prefix.pch"; sourceTree = "<group>"; };
+		1A1DA8761704A5BC00BDA8F9 /* JSController-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "JSController-Prefix.pch"; sourceTree = "<group>"; };
 		1A1DA8771704A5BC00BDA8F9 /* JSAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JSAppDelegate.h; sourceTree = "<group>"; };
 		1A1DA8781704A5BC00BDA8F9 /* JSAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JSAppDelegate.m; sourceTree = "<group>"; };
 		1A1DA87A1704A5BD00BDA8F9 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
@@ -120,7 +120,7 @@
 		1A1DA8661704A5BC00BDA8F9 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				1A1DA8651704A5BC00BDA8F9 /* Controller.app */,
+				1A1DA8651704A5BC00BDA8F9 /* JSController.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -159,10 +159,10 @@
 		1A1DA86F1704A5BC00BDA8F9 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				1A1DA8701704A5BC00BDA8F9 /* Controller-Info.plist */,
+				1A1DA8701704A5BC00BDA8F9 /* JSController-Info.plist */,
 				1A1DA8711704A5BC00BDA8F9 /* InfoPlist.strings */,
 				1A1DA8741704A5BC00BDA8F9 /* main.m */,
-				1A1DA8761704A5BC00BDA8F9 /* Controller-Prefix.pch */,
+				1A1DA8761704A5BC00BDA8F9 /* JSController-Prefix.pch */,
 				1A1DA87A1704A5BD00BDA8F9 /* Default.png */,
 				1A1DA87C1704A5BD00BDA8F9 /* Default@2x.png */,
 				1A1DA87E1704A5BD00BDA8F9 /* Default-568h@2x.png */,
@@ -210,9 +210,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		1A1DA8641704A5BC00BDA8F9 /* Controller */ = {
+		1A1DA8641704A5BC00BDA8F9 /* JSController */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1A1DA8881704A5BD00BDA8F9 /* Build configuration list for PBXNativeTarget "Controller" */;
+			buildConfigurationList = 1A1DA8881704A5BD00BDA8F9 /* Build configuration list for PBXNativeTarget "JSController" */;
 			buildPhases = (
 				1A1DA8611704A5BC00BDA8F9 /* Sources */,
 				1A1DA8621704A5BC00BDA8F9 /* Frameworks */,
@@ -222,9 +222,9 @@
 			);
 			dependencies = (
 			);
-			name = Controller;
+			name = JSController;
 			productName = Controller;
-			productReference = 1A1DA8651704A5BC00BDA8F9 /* Controller.app */;
+			productReference = 1A1DA8651704A5BC00BDA8F9 /* JSController.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -237,7 +237,7 @@
 				LastUpgradeCheck = 0460;
 				ORGANIZATIONNAME = "James Addyman";
 			};
-			buildConfigurationList = 1A1DA8601704A5BC00BDA8F9 /* Build configuration list for PBXProject "Controller" */;
+			buildConfigurationList = 1A1DA8601704A5BC00BDA8F9 /* Build configuration list for PBXProject "JSController" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -249,7 +249,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				1A1DA8641704A5BC00BDA8F9 /* Controller */,
+				1A1DA8641704A5BC00BDA8F9 /* JSController */,
 			);
 		};
 /* End PBXProject section */
@@ -388,10 +388,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Controller/Controller-Prefix.pch";
-				INFOPLIST_FILE = "Controller/Controller-Info.plist";
+				GCC_PREFIX_HEADER = "Controller/JSController-Prefix.pch";
+				INFOPLIST_FILE = "Controller/JSController-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = JSController;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
@@ -401,10 +401,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Controller/Controller-Prefix.pch";
-				INFOPLIST_FILE = "Controller/Controller-Info.plist";
+				GCC_PREFIX_HEADER = "Controller/JSController-Prefix.pch";
+				INFOPLIST_FILE = "Controller/JSController-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = JSController;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
@@ -413,7 +413,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		1A1DA8601704A5BC00BDA8F9 /* Build configuration list for PBXProject "Controller" */ = {
+		1A1DA8601704A5BC00BDA8F9 /* Build configuration list for PBXProject "JSController" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1A1DA8861704A5BD00BDA8F9 /* Debug */,
@@ -422,7 +422,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		1A1DA8881704A5BD00BDA8F9 /* Build configuration list for PBXNativeTarget "Controller" */ = {
+		1A1DA8881704A5BD00BDA8F9 /* Build configuration list for PBXNativeTarget "JSController" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1A1DA8891704A5BD00BDA8F9 /* Debug */,
