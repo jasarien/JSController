@@ -21,7 +21,7 @@ This project uses ARC. If your project does not use ARC, you will need to add th
 - Preset control layouts
 	- Plist files that describe a layout from which buttons, where they are, what they look like
 
-![JSTokenField](http://d.pr/i/43Id+ "JSController")
+![JSTokenField](http://d.pr/i/k0wm+ "JSController")
 
 License (Simplified BSD)
 =======
