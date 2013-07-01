@@ -4,11 +4,10 @@ JSController
 A set of classes that make it easy to build a controller UI for games.
 
 - Written purely in UIKit
-- Uses a delegate based method for informing when buttons are pressed and released
+- All controls are both delegate based and/or pollable.
 - D-Pad class with full 8 directions, background and direction images can be swapped out
 - Push Button class with configurable background images
 - Analogue stick class that uses a normalized -1.0 to 1.0 scale and supports inverted Y axis. Background and handle images can be swapped out.
-- All controls are both delegate based and/or pollable.
 - Can be used within Interface Builder
 	- Just drag a UIView onto your XIB and set it's class as JSDPad, JSButton or JSAnalogueStick. You can set it's delegate from within interface builder as well as its position and size.
 
