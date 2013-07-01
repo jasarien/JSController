@@ -38,6 +38,7 @@
 	
 	[self updateDirectionLabel];
 	[self updateButtonLabel];
+	[self updateAnalogueLabel];
 }
 
 - (void)didReceiveMemoryWarning
@@ -114,6 +115,11 @@
 	[self.buttonLabel setText:[NSString stringWithFormat:@"Buttons pressed: %@", buttonString]];
 }
 
+- (void)updateAnalogueLabel
+{
+	[self.analogueLabel setText:[NSString stringWithFormat:@"Analogue: %.1f , %.1f", self.analogueStick.xValue, self.analogueStick.yValue]];
+}
+
 #pragma mark - JSDPadDelegate
 
 - (void)dPad:(JSDPad *)dPad didPressDirection:(JSDPadDirection)direction
@@ -171,5 +177,11 @@
 	
 }
 
+#pragma mark - JSAnalogueStickDelegate
+
+- (void)analogueStickDidChangeValue:(JSAnalogueStick *)analogueStick
+{
+	[self updateAnalogueLabel];
+}
 
 @end

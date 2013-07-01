@@ -23,6 +23,11 @@
 		1A1DA8821704A5BD00BDA8F9 /* JSViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A1DA8811704A5BD00BDA8F9 /* JSViewController.m */; };
 		1A1DA8851704A5BD00BDA8F9 /* JSViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1A1DA8831704A5BD00BDA8F9 /* JSViewController.xib */; };
 		1A1DA88D1704A82D00BDA8F9 /* JSDPad.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A1DA88C1704A82D00BDA8F9 /* JSDPad.m */; };
+		1A3D34851781764E00637371 /* JSAnalogueStick.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A3D34841781764E00637371 /* JSAnalogueStick.m */; };
+		1A3D348A178177FC00637371 /* analogue_bg.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A3D3486178177FC00637371 /* analogue_bg.png */; };
+		1A3D348B178177FC00637371 /* analogue_bg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A3D3487178177FC00637371 /* analogue_bg@2x.png */; };
+		1A3D348C178177FC00637371 /* analogue_handle.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A3D3488178177FC00637371 /* analogue_handle.png */; };
+		1A3D348D178177FC00637371 /* analogue_handle@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A3D3489178177FC00637371 /* analogue_handle@2x.png */; };
 		1A4FA0C21706290D00B9630A /* dPad-Down.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A4FA0B01706290D00B9630A /* dPad-Down.png */; };
 		1A4FA0C31706290D00B9630A /* dPad-Down@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A4FA0B11706290D00B9630A /* dPad-Down@2x.png */; };
 		1A4FA0C41706290D00B9630A /* dPad-DownLeft.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A4FA0B21706290D00B9630A /* dPad-DownLeft.png */; };
@@ -69,6 +74,12 @@
 		1A1DA8841704A5BD00BDA8F9 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/JSViewController.xib; sourceTree = "<group>"; };
 		1A1DA88B1704A82D00BDA8F9 /* JSDPad.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSDPad.h; sourceTree = "<group>"; };
 		1A1DA88C1704A82D00BDA8F9 /* JSDPad.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSDPad.m; sourceTree = "<group>"; };
+		1A3D34831781764E00637371 /* JSAnalogueStick.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSAnalogueStick.h; sourceTree = "<group>"; };
+		1A3D34841781764E00637371 /* JSAnalogueStick.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSAnalogueStick.m; sourceTree = "<group>"; };
+		1A3D3486178177FC00637371 /* analogue_bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = analogue_bg.png; sourceTree = "<group>"; };
+		1A3D3487178177FC00637371 /* analogue_bg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "analogue_bg@2x.png"; sourceTree = "<group>"; };
+		1A3D3488178177FC00637371 /* analogue_handle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = analogue_handle.png; sourceTree = "<group>"; };
+		1A3D3489178177FC00637371 /* analogue_handle@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "analogue_handle@2x.png"; sourceTree = "<group>"; };
 		1A4FA0B01706290D00B9630A /* dPad-Down.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "dPad-Down.png"; sourceTree = "<group>"; };
 		1A4FA0B11706290D00B9630A /* dPad-Down@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "dPad-Down@2x.png"; sourceTree = "<group>"; };
 		1A4FA0B21706290D00B9630A /* dPad-DownLeft.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "dPad-DownLeft.png"; sourceTree = "<group>"; };
@@ -149,6 +160,8 @@
 				1A4FA0DA1706303500B9630A /* JSButton.m */,
 				1AB68258170DD4E500956173 /* JSControlPad.h */,
 				1AB68259170DD4E500956173 /* JSControlPad.m */,
+				1A3D34831781764E00637371 /* JSAnalogueStick.h */,
+				1A3D34841781764E00637371 /* JSAnalogueStick.m */,
 				1AB6825B170DDCE600956173 /* Layouts */,
 				1A4FA0AB170623C700B9630A /* Resources */,
 				1A1DA86F1704A5BC00BDA8F9 /* Supporting Files */,
@@ -195,6 +208,10 @@
 				1A162D3317075DF600889F2D /* button-pressed@2x.png */,
 				1A162D3417075DF600889F2D /* button.png */,
 				1A162D3517075DF600889F2D /* button@2x.png */,
+				1A3D3486178177FC00637371 /* analogue_bg.png */,
+				1A3D3487178177FC00637371 /* analogue_bg@2x.png */,
+				1A3D3488178177FC00637371 /* analogue_handle.png */,
+				1A3D3489178177FC00637371 /* analogue_handle@2x.png */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -287,6 +304,10 @@
 				1A162D3817075DF600889F2D /* button.png in Resources */,
 				1A162D3917075DF600889F2D /* button@2x.png in Resources */,
 				1AB6825D170DDD0D00956173 /* Gameboy-landscape.plist in Resources */,
+				1A3D348A178177FC00637371 /* analogue_bg.png in Resources */,
+				1A3D348B178177FC00637371 /* analogue_bg@2x.png in Resources */,
+				1A3D348C178177FC00637371 /* analogue_handle.png in Resources */,
+				1A3D348D178177FC00637371 /* analogue_handle@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -303,6 +324,7 @@
 				1A1DA88D1704A82D00BDA8F9 /* JSDPad.m in Sources */,
 				1A4FA0DB1706303500B9630A /* JSButton.m in Sources */,
 				1AB6825A170DD4E500956173 /* JSControlPad.m in Sources */,
+				1A3D34851781764E00637371 /* JSAnalogueStick.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
