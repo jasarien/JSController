@@ -20,14 +20,9 @@
 
 @implementation JSDPad
 
-+ (CGSize)size
-{
-	return CGSizeMake(150, 150);
-}
-
 - (id)initWithFrame:(CGRect)frame
 {
-	if ((self = [super initWithFrame:CGRectZero]))
+	if ((self = [super initWithFrame:frame]))
 	{
 		[self commonInit];
 	}
@@ -47,8 +42,8 @@
 
 - (void)commonInit
 {
-	[self setBounds:CGRectMake(0, 0, [JSDPad size].width, [JSDPad size].height)];
 	_dPadImageView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"dPad-None"]];
+	[_dPadImageView setFrame:CGRectMake(0, 0, [self bounds].size.width, [self bounds].size.height)];
 	[self addSubview:_dPadImageView];
 	
 	_currentDirection = JSDPadDirectionNone;
@@ -69,14 +64,14 @@
 	CGFloat x = point.x;
 	CGFloat y = point.y;
 	
-	if (((x < 0) || (x > [JSDPad size].width)) ||
-		((y < 0) || (y > [JSDPad size].height)))
+	if (((x < 0) || (x > [self bounds].size.width)) ||
+		((y < 0) || (y > [self bounds].size.height)))
 	{
 		return JSDPadDirectionNone;
 	}
 	
-	NSUInteger column = x / ([JSDPad size].width / 3);
-	NSUInteger row = y / ([JSDPad size].height / 3);
+	NSUInteger column = x / ([self bounds].size.width / 3);
+	NSUInteger row = y / ([self bounds].size.height / 3);
 
 	JSDPadDirection direction = (row * 3) + column + 1;
 	
