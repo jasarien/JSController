@@ -14,8 +14,6 @@
 	
 }
 
-@property (nonatomic, assign) BOOL pressed;
-
 @end
 
 @implementation JSButton
