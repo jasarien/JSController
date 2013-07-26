@@ -30,9 +30,13 @@ typedef NS_ENUM(NSUInteger, JSDPadDirection)
 
 @end
 
-@interface JSDPad : UIView
+@interface JSDPad : UIView <UIGestureRecognizerDelegate>
 
 @property (nonatomic, weak) IBOutlet id <JSDPadDelegate> delegate;
+
+@property (nonatomic, assign, getter = isEditing) BOOL editing;
+@property (nonatomic, assign) CGSize maxSize;
+@property (nonatomic, assign) CGSize minSize;
 
 - (JSDPadDirection)currentDirection;
 
