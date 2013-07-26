@@ -34,6 +34,8 @@
 
 - (void)commonInit
 {
+	[self setBackgroundColor:[UIColor clearColor]];
+	
 	_backgroundImageView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"analogue_bg"]];
 	CGRect backgroundImageFrame = [_backgroundImageView frame];
 	backgroundImageFrame.size = [self bounds].size;

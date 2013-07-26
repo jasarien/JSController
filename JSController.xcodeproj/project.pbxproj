@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1A0996CB17A30B520009A982 /* JSMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A0996CA17A30B520009A982 /* JSMenuViewController.m */; };
 		1A162D3617075DF600889F2D /* button-pressed.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A162D3217075DF600889F2D /* button-pressed.png */; };
 		1A162D3717075DF600889F2D /* button-pressed@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A162D3317075DF600889F2D /* button-pressed@2x.png */; };
 		1A162D3817075DF600889F2D /* button.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A162D3417075DF600889F2D /* button.png */; };
@@ -28,30 +29,14 @@
 		1A3D348B178177FC00637371 /* analogue_bg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A3D3487178177FC00637371 /* analogue_bg@2x.png */; };
 		1A3D348C178177FC00637371 /* analogue_handle.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A3D3488178177FC00637371 /* analogue_handle.png */; };
 		1A3D348D178177FC00637371 /* analogue_handle@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A3D3489178177FC00637371 /* analogue_handle@2x.png */; };
-		1A4FA0C21706290D00B9630A /* dPad-Down.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A4FA0B01706290D00B9630A /* dPad-Down.png */; };
-		1A4FA0C31706290D00B9630A /* dPad-Down@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A4FA0B11706290D00B9630A /* dPad-Down@2x.png */; };
-		1A4FA0C41706290D00B9630A /* dPad-DownLeft.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A4FA0B21706290D00B9630A /* dPad-DownLeft.png */; };
-		1A4FA0C51706290D00B9630A /* dPad-DownLeft@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A4FA0B31706290D00B9630A /* dPad-DownLeft@2x.png */; };
-		1A4FA0C61706290D00B9630A /* dPad-DownRight.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A4FA0B41706290D00B9630A /* dPad-DownRight.png */; };
-		1A4FA0C71706290D00B9630A /* dPad-DownRight@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A4FA0B51706290D00B9630A /* dPad-DownRight@2x.png */; };
-		1A4FA0C81706290D00B9630A /* dPad-Left.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A4FA0B61706290D00B9630A /* dPad-Left.png */; };
-		1A4FA0C91706290D00B9630A /* dPad-Left@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A4FA0B71706290D00B9630A /* dPad-Left@2x.png */; };
-		1A4FA0CA1706290D00B9630A /* dPad-None.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A4FA0B81706290D00B9630A /* dPad-None.png */; };
-		1A4FA0CB1706290D00B9630A /* dPad-None@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A4FA0B91706290D00B9630A /* dPad-None@2x.png */; };
-		1A4FA0CC1706290D00B9630A /* dPad-Right.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A4FA0BA1706290D00B9630A /* dPad-Right.png */; };
-		1A4FA0CD1706290D00B9630A /* dPad-Right@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A4FA0BB1706290D00B9630A /* dPad-Right@2x.png */; };
-		1A4FA0D01706290D00B9630A /* dPad-UpLeft.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A4FA0BE1706290D00B9630A /* dPad-UpLeft.png */; };
-		1A4FA0D11706290D00B9630A /* dPad-UpLeft@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A4FA0BF1706290D00B9630A /* dPad-UpLeft@2x.png */; };
-		1A4FA0D21706290D00B9630A /* dPad-UpRight.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A4FA0C01706290D00B9630A /* dPad-UpRight.png */; };
-		1A4FA0D31706290D00B9630A /* dPad-UpRight@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A4FA0C11706290D00B9630A /* dPad-UpRight@2x.png */; };
-		1A4FA0D617062AD300B9630A /* dPad-Up.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A4FA0D417062AD300B9630A /* dPad-Up.png */; };
-		1A4FA0D717062AD300B9630A /* dPad-Up@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A4FA0D517062AD300B9630A /* dPad-Up@2x.png */; };
 		1A4FA0DB1706303500B9630A /* JSButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A4FA0DA1706303500B9630A /* JSButton.m */; };
 		1AB6825A170DD4E500956173 /* JSControlPad.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AB68259170DD4E500956173 /* JSControlPad.m */; };
 		1AB6825D170DDD0D00956173 /* Gameboy-landscape.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1AB6825C170DDD0D00956173 /* Gameboy-landscape.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1A0996C917A30B520009A982 /* JSMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSMenuViewController.h; sourceTree = "<group>"; };
+		1A0996CA17A30B520009A982 /* JSMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSMenuViewController.m; sourceTree = "<group>"; };
 		1A162D3217075DF600889F2D /* button-pressed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "button-pressed.png"; sourceTree = "<group>"; };
 		1A162D3317075DF600889F2D /* button-pressed@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "button-pressed@2x.png"; sourceTree = "<group>"; };
 		1A162D3417075DF600889F2D /* button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button.png; sourceTree = "<group>"; };
@@ -81,24 +66,6 @@
 		1A3D3488178177FC00637371 /* analogue_handle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = analogue_handle.png; sourceTree = "<group>"; };
 		1A3D3489178177FC00637371 /* analogue_handle@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "analogue_handle@2x.png"; sourceTree = "<group>"; };
 		1A3D348E17817E7C00637371 /* README.mdown */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = README.mdown; path = ../README.mdown; sourceTree = "<group>"; };
-		1A4FA0B01706290D00B9630A /* dPad-Down.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "dPad-Down.png"; sourceTree = "<group>"; };
-		1A4FA0B11706290D00B9630A /* dPad-Down@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "dPad-Down@2x.png"; sourceTree = "<group>"; };
-		1A4FA0B21706290D00B9630A /* dPad-DownLeft.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "dPad-DownLeft.png"; sourceTree = "<group>"; };
-		1A4FA0B31706290D00B9630A /* dPad-DownLeft@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "dPad-DownLeft@2x.png"; sourceTree = "<group>"; };
-		1A4FA0B41706290D00B9630A /* dPad-DownRight.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "dPad-DownRight.png"; sourceTree = "<group>"; };
-		1A4FA0B51706290D00B9630A /* dPad-DownRight@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "dPad-DownRight@2x.png"; sourceTree = "<group>"; };
-		1A4FA0B61706290D00B9630A /* dPad-Left.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "dPad-Left.png"; sourceTree = "<group>"; };
-		1A4FA0B71706290D00B9630A /* dPad-Left@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "dPad-Left@2x.png"; sourceTree = "<group>"; };
-		1A4FA0B81706290D00B9630A /* dPad-None.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "dPad-None.png"; sourceTree = "<group>"; };
-		1A4FA0B91706290D00B9630A /* dPad-None@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "dPad-None@2x.png"; sourceTree = "<group>"; };
-		1A4FA0BA1706290D00B9630A /* dPad-Right.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "dPad-Right.png"; sourceTree = "<group>"; };
-		1A4FA0BB1706290D00B9630A /* dPad-Right@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "dPad-Right@2x.png"; sourceTree = "<group>"; };
-		1A4FA0BE1706290D00B9630A /* dPad-UpLeft.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "dPad-UpLeft.png"; sourceTree = "<group>"; };
-		1A4FA0BF1706290D00B9630A /* dPad-UpLeft@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "dPad-UpLeft@2x.png"; sourceTree = "<group>"; };
-		1A4FA0C01706290D00B9630A /* dPad-UpRight.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "dPad-UpRight.png"; sourceTree = "<group>"; };
-		1A4FA0C11706290D00B9630A /* dPad-UpRight@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "dPad-UpRight@2x.png"; sourceTree = "<group>"; };
-		1A4FA0D417062AD300B9630A /* dPad-Up.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "dPad-Up.png"; sourceTree = "<group>"; };
-		1A4FA0D517062AD300B9630A /* dPad-Up@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "dPad-Up@2x.png"; sourceTree = "<group>"; };
 		1A4FA0D91706303500B9630A /* JSButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSButton.h; sourceTree = "<group>"; };
 		1A4FA0DA1706303500B9630A /* JSButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSButton.m; sourceTree = "<group>"; };
 		1AB68258170DD4E500956173 /* JSControlPad.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSControlPad.h; sourceTree = "<group>"; };
@@ -152,6 +119,8 @@
 			children = (
 				1A1DA8771704A5BC00BDA8F9 /* JSAppDelegate.h */,
 				1A1DA8781704A5BC00BDA8F9 /* JSAppDelegate.m */,
+				1A0996C917A30B520009A982 /* JSMenuViewController.h */,
+				1A0996CA17A30B520009A982 /* JSMenuViewController.m */,
 				1A1DA8801704A5BD00BDA8F9 /* JSViewController.h */,
 				1A1DA8811704A5BD00BDA8F9 /* JSViewController.m */,
 				1A1DA8831704A5BD00BDA8F9 /* JSViewController.xib */,
@@ -188,24 +157,6 @@
 		1A4FA0AB170623C700B9630A /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				1A4FA0B01706290D00B9630A /* dPad-Down.png */,
-				1A4FA0B11706290D00B9630A /* dPad-Down@2x.png */,
-				1A4FA0B21706290D00B9630A /* dPad-DownLeft.png */,
-				1A4FA0B31706290D00B9630A /* dPad-DownLeft@2x.png */,
-				1A4FA0B41706290D00B9630A /* dPad-DownRight.png */,
-				1A4FA0B51706290D00B9630A /* dPad-DownRight@2x.png */,
-				1A4FA0B61706290D00B9630A /* dPad-Left.png */,
-				1A4FA0B71706290D00B9630A /* dPad-Left@2x.png */,
-				1A4FA0B81706290D00B9630A /* dPad-None.png */,
-				1A4FA0B91706290D00B9630A /* dPad-None@2x.png */,
-				1A4FA0BA1706290D00B9630A /* dPad-Right.png */,
-				1A4FA0BB1706290D00B9630A /* dPad-Right@2x.png */,
-				1A4FA0D417062AD300B9630A /* dPad-Up.png */,
-				1A4FA0D517062AD300B9630A /* dPad-Up@2x.png */,
-				1A4FA0BE1706290D00B9630A /* dPad-UpLeft.png */,
-				1A4FA0BF1706290D00B9630A /* dPad-UpLeft@2x.png */,
-				1A4FA0C01706290D00B9630A /* dPad-UpRight.png */,
-				1A4FA0C11706290D00B9630A /* dPad-UpRight@2x.png */,
 				1A162D3217075DF600889F2D /* button-pressed.png */,
 				1A162D3317075DF600889F2D /* button-pressed@2x.png */,
 				1A162D3417075DF600889F2D /* button.png */,
@@ -283,24 +234,6 @@
 				1A1DA87D1704A5BD00BDA8F9 /* Default@2x.png in Resources */,
 				1A1DA87F1704A5BD00BDA8F9 /* Default-568h@2x.png in Resources */,
 				1A1DA8851704A5BD00BDA8F9 /* JSViewController.xib in Resources */,
-				1A4FA0C21706290D00B9630A /* dPad-Down.png in Resources */,
-				1A4FA0C31706290D00B9630A /* dPad-Down@2x.png in Resources */,
-				1A4FA0C41706290D00B9630A /* dPad-DownLeft.png in Resources */,
-				1A4FA0C51706290D00B9630A /* dPad-DownLeft@2x.png in Resources */,
-				1A4FA0C61706290D00B9630A /* dPad-DownRight.png in Resources */,
-				1A4FA0C71706290D00B9630A /* dPad-DownRight@2x.png in Resources */,
-				1A4FA0C81706290D00B9630A /* dPad-Left.png in Resources */,
-				1A4FA0C91706290D00B9630A /* dPad-Left@2x.png in Resources */,
-				1A4FA0CA1706290D00B9630A /* dPad-None.png in Resources */,
-				1A4FA0CB1706290D00B9630A /* dPad-None@2x.png in Resources */,
-				1A4FA0CC1706290D00B9630A /* dPad-Right.png in Resources */,
-				1A4FA0CD1706290D00B9630A /* dPad-Right@2x.png in Resources */,
-				1A4FA0D01706290D00B9630A /* dPad-UpLeft.png in Resources */,
-				1A4FA0D11706290D00B9630A /* dPad-UpLeft@2x.png in Resources */,
-				1A4FA0D21706290D00B9630A /* dPad-UpRight.png in Resources */,
-				1A4FA0D31706290D00B9630A /* dPad-UpRight@2x.png in Resources */,
-				1A4FA0D617062AD300B9630A /* dPad-Up.png in Resources */,
-				1A4FA0D717062AD300B9630A /* dPad-Up@2x.png in Resources */,
 				1A162D3617075DF600889F2D /* button-pressed.png in Resources */,
 				1A162D3717075DF600889F2D /* button-pressed@2x.png in Resources */,
 				1A162D3817075DF600889F2D /* button.png in Resources */,
@@ -327,6 +260,7 @@
 				1A4FA0DB1706303500B9630A /* JSButton.m in Sources */,
 				1AB6825A170DD4E500956173 /* JSControlPad.m in Sources */,
 				1A3D34851781764E00637371 /* JSAnalogueStick.m in Sources */,
+				1A0996CB17A30B520009A982 /* JSMenuViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

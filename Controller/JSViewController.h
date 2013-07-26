@@ -21,4 +21,7 @@
 @property (weak, nonatomic) IBOutlet JSButton *aButton;
 @property (weak, nonatomic) IBOutlet JSAnalogueStick *analogueStick;
 
+@property (nonatomic, assign) BOOL showDPad;
+@property (nonatomic, assign) BOOL showAnalogue;
+
 @end

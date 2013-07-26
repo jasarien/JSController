@@ -17,8 +17,6 @@
 	
 	JSDPadDirection _currentDirection;
 	
-//	UIImageView *_dPadImageView;
-	
 }
 
 @end
@@ -47,9 +45,12 @@
 
 - (void)commonInit
 {
-//	_dPadImageView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"dPad-None"]];
-//	[_dPadImageView setFrame:CGRectMake(0, 0, [self bounds].size.width, [self bounds].size.height)];
-//	[self addSubview:_dPadImageView];
+	[self setBackgroundColor:[UIColor clearColor]];
+	[self setContentMode:UIViewContentModeRedraw];
+	
+	// set these externally for resizing to work while editing.
+	self.maxSize = CGSizeMake(300, 300);
+	self.minSize = CGSizeMake(100, 100);
 	
 	_currentDirection = JSDPadDirectionNone;
 }
@@ -83,48 +84,13 @@
 	return direction;
 }
 
-//- (UIImage *)imageForDirection:(JSDPadDirection)direction
-//{
-//	UIImage *image = nil;
-//	
-//	switch (direction) {
-//		case JSDPadDirectionNone:
-//			image = [UIImage imageNamed:@"dPad-None"];
-//			break;
-//		case JSDPadDirectionUp:
-//			image = [UIImage imageNamed:@"dPad-Up"];
-//			break;
-//		case JSDPadDirectionDown:
-//			image = [UIImage imageNamed:@"dPad-Down"];
-//			break;
-//		case JSDPadDirectionLeft:
-//			image = [UIImage imageNamed:@"dPad-Left"];
-//			break;
-//		case JSDPadDirectionRight:
-//			image = [UIImage imageNamed:@"dPad-Right"];
-//			break;
-//		case JSDPadDirectionUpLeft:
-//			image = [UIImage imageNamed:@"dPad-UpLeft"];
-//			break;
-//		case JSDPadDirectionUpRight:
-//			image = [UIImage imageNamed:@"dPad-UpRight"];
-//			break;
-//		case JSDPadDirectionDownLeft:
-//			image = [UIImage imageNamed:@"dPad-DownLeft"];
-//			break;
-//		case JSDPadDirectionDownRight:
-//			image = [UIImage imageNamed:@"dPad-DownRight"];
-//			break;
-//		default:
-//			image = [UIImage imageNamed:@"dPad-None"];
-//			break;
-//	}
-//	
-//	return image;
-//}
-
 - (void)touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event
 {
+	if (_editing)
+	{
+		return;
+	}
+	
 	UITouch *touch = [touches anyObject];
 	CGPoint point = [touch locationInView:self];
 	
@@ -144,6 +110,11 @@
 
 - (void)touchesMoved:(NSSet *)touches withEvent:(UIEvent *)event
 {
+	if (_editing)
+	{
+		return;
+	}
+	
 	UITouch *touch = [touches anyObject];
 	CGPoint point = [touch locationInView:self];
 	
@@ -163,6 +134,11 @@
 
 - (void)touchesCancelled:(NSSet *)touches withEvent:(UIEvent *)event
 {
+	if (_editing)
+	{
+		return;
+	}
+	
 	_currentDirection = JSDPadDirectionNone;
 	[self setNeedsDisplay];
 	
@@ -174,6 +150,11 @@
 
 - (void)touchesEnded:(NSSet *)touches withEvent:(UIEvent *)event
 {
+	if (_editing)
+	{
+		return;
+	}
+	
 	_currentDirection = JSDPadDirectionNone;
 	[self setNeedsDisplay];
 	

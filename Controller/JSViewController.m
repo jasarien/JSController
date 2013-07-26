@@ -39,11 +39,53 @@
 	[self updateDirectionLabel];
 	[self updateButtonLabel];
 	[self updateAnalogueLabel];
+	
+	if (self.showDPad)
+	{
+		[self.directionlabel setHidden:NO];
+		[self.dPad setHidden:NO];
+		
+		[self.analogueLabel setHidden:YES];
+		[self.analogueStick setHidden:YES];
+	}
+	
+	if (self.showAnalogue)
+	{
+		[self.directionlabel setHidden:YES];
+		[self.dPad setHidden:YES];
+		
+		[self.analogueLabel setHidden:NO];
+		[self.analogueStick setHidden:NO];
+	}
+	
+	UIBarButtonItem *editButtonItem = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemEdit
+																					target:self
+																					action:@selector(toggleEditing:)];
+	[self.navigationItem setRightBarButtonItem:editButtonItem];
 }
 
 - (void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];
+}
+
+- (void)toggleEditing:(id)sender
+{
+	[self.dPad setEditing:![self.dPad isEditing]];
+	if ([self.dPad isEditing])
+	{
+		UIBarButtonItem *doneButtonItem = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemDone
+																						target:self
+																						action:@selector(toggleEditing:)];
+		[self.navigationItem setRightBarButtonItem:doneButtonItem];
+	}
+	else
+	{
+		UIBarButtonItem *editButtonItem = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemEdit
+																						target:self
+																						action:@selector(toggleEditing:)];
+		[self.navigationItem setRightBarButtonItem:editButtonItem];
+	}
 }
 
 - (NSString *)stringForDirection:(JSDPadDirection)direction

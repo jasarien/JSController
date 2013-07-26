@@ -8,12 +8,11 @@
 
 #import <UIKit/UIKit.h>
 
-@class JSViewController;
+@class JSMenuViewController;
 
 @interface JSAppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
-
-@property (strong, nonatomic) JSViewController *viewController;
+@property (strong, nonatomic) UINavigationController *navController;
 
 @end

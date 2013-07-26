@@ -40,6 +40,8 @@
 
 - (void)commonInit
 {
+	[self setBackgroundColor:[UIColor clearColor]];
+	
 	_backgroundImageView = [[UIImageView alloc] initWithImage:self.backgroundImage];
 	[_backgroundImageView setFrame:[self bounds]];
 	[_backgroundImageView setContentMode:UIViewContentModeCenter];
