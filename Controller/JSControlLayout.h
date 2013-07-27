@@ -1,5 +1,5 @@
 //
-//  JSControlPad.h
+//  JSControlLayout.h
 //  Controller
 //
 //  Created by James Addyman on 04/04/2013.
@@ -10,7 +10,7 @@
 #import "JSDPad.h"
 #import "JSButton.h"
 
-@interface JSControlPad : UIView
+@interface JSControlLayout : UIView
 
 @property (nonatomic, strong) NSString *title;
 @property (nonatomic, assign) UIDeviceOrientation orientation;

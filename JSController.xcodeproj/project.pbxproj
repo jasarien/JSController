@@ -47,7 +47,7 @@
 		1A4FA0D617062AD300B9630A /* dPad-Up.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A4FA0D417062AD300B9630A /* dPad-Up.png */; };
 		1A4FA0D717062AD300B9630A /* dPad-Up@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A4FA0D517062AD300B9630A /* dPad-Up@2x.png */; };
 		1A4FA0DB1706303500B9630A /* JSButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A4FA0DA1706303500B9630A /* JSButton.m */; };
-		1AB6825A170DD4E500956173 /* JSControlPad.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AB68259170DD4E500956173 /* JSControlPad.m */; };
+		1AB6825A170DD4E500956173 /* JSControlLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AB68259170DD4E500956173 /* JSControlLayout.m */; };
 		1AB6825D170DDD0D00956173 /* Gameboy-landscape.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1AB6825C170DDD0D00956173 /* Gameboy-landscape.plist */; };
 /* End PBXBuildFile section */
 
@@ -101,8 +101,8 @@
 		1A4FA0D517062AD300B9630A /* dPad-Up@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "dPad-Up@2x.png"; sourceTree = "<group>"; };
 		1A4FA0D91706303500B9630A /* JSButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSButton.h; sourceTree = "<group>"; };
 		1A4FA0DA1706303500B9630A /* JSButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSButton.m; sourceTree = "<group>"; };
-		1AB68258170DD4E500956173 /* JSControlPad.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSControlPad.h; sourceTree = "<group>"; };
-		1AB68259170DD4E500956173 /* JSControlPad.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSControlPad.m; sourceTree = "<group>"; };
+		1AB68258170DD4E500956173 /* JSControlLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSControlLayout.h; sourceTree = "<group>"; };
+		1AB68259170DD4E500956173 /* JSControlLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSControlLayout.m; sourceTree = "<group>"; };
 		1AB6825C170DDD0D00956173 /* Gameboy-landscape.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Gameboy-landscape.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -157,12 +157,12 @@
 				1A1DA8831704A5BD00BDA8F9 /* JSViewController.xib */,
 				1A1DA88B1704A82D00BDA8F9 /* JSDPad.h */,
 				1A1DA88C1704A82D00BDA8F9 /* JSDPad.m */,
-				1A4FA0D91706303500B9630A /* JSButton.h */,
-				1A4FA0DA1706303500B9630A /* JSButton.m */,
-				1AB68258170DD4E500956173 /* JSControlPad.h */,
-				1AB68259170DD4E500956173 /* JSControlPad.m */,
 				1A3D34831781764E00637371 /* JSAnalogueStick.h */,
 				1A3D34841781764E00637371 /* JSAnalogueStick.m */,
+				1A4FA0D91706303500B9630A /* JSButton.h */,
+				1A4FA0DA1706303500B9630A /* JSButton.m */,
+				1AB68258170DD4E500956173 /* JSControlLayout.h */,
+				1AB68259170DD4E500956173 /* JSControlLayout.m */,
 				1AB6825B170DDCE600956173 /* Layouts */,
 				1A4FA0AB170623C700B9630A /* Resources */,
 				1A1DA86F1704A5BC00BDA8F9 /* Supporting Files */,
@@ -325,7 +325,7 @@
 				1A1DA8821704A5BD00BDA8F9 /* JSViewController.m in Sources */,
 				1A1DA88D1704A82D00BDA8F9 /* JSDPad.m in Sources */,
 				1A4FA0DB1706303500B9630A /* JSButton.m in Sources */,
-				1AB6825A170DD4E500956173 /* JSControlPad.m in Sources */,
+				1AB6825A170DD4E500956173 /* JSControlLayout.m in Sources */,
 				1A3D34851781764E00637371 /* JSAnalogueStick.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -1,14 +1,14 @@
 //
-//  JSControlPad.m
+//  JSControlLayout.m
 //  Controller
 //
 //  Created by James Addyman on 04/04/2013.
 //  Copyright (c) 2013 James Addyman. All rights reserved.
 //
 
-#import "JSControlPad.h"
+#import "JSControlLayout.h"
 
-@interface JSControlPad () {
+@interface JSControlLayout () {
 
 	JSDPad *_dPad;
 	NSMutableArray *_buttons;
@@ -17,7 +17,7 @@
 
 @end
 
-@implementation JSControlPad
+@implementation JSControlLayout
 
 - (id)initWithLayout:(NSString *)layoutFile delegate:(id <JSDPadDelegate, JSButtonDelegate>)delegate
 {
