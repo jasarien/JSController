@@ -139,6 +139,13 @@
 	_xValue = normalisedX;
 	_yValue = normalisedY;
 	
+	if ((hypot(_xValue, _yValue) >= 1)) {
+		double radians = atan2f(_yValue, _xValue);
+		if (radians < 0) radians = M_PI * 2 + radians;
+		location.x = RADIUS + RADIUS * cos(radians);
+		location.y = RADIUS + RADIUS * sin(radians) * -1;
+	}
+	
 	CGRect handleImageFrame = [_handleImageView frame];
 	handleImageFrame.origin = CGPointMake(location.x - ([_handleImageView bounds].size.width / 2),
 										  location.y - ([_handleImageView bounds].size.width / 2));
